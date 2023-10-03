@@ -13,8 +13,14 @@ export default defineAppConfig({
     },
     header: {
       logo: false,
+      showLinkIcon: true
     },
     footer: {
+      credits: {
+        icon: ' ',
+        text: 'Powered by Simptel',
+        href: 'https://www.simptel.com/'
+      },
       iconLinks: [
         {
           href: 'https://www.simptel.com/',
